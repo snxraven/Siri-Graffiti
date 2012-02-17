@@ -6,7 +6,7 @@
 
 $newCommand = $_POST["newCommand"];
 if ($newCommand == "")
-$newCommand = "if you wish to edit this go to siri.grwh.net";
+$newCommand = "To Change this message visit the Graffiti Page";
 $myFile = "command.txt";
 $fh = fopen($myFile, 'w') or die("can't open file");
 $stringData = "{ \"type\": \"success\", \"value\": {\"id\": 1, \"inputCommand\": \"Graffiti\", \"response\": \"$newCommand\" } }";
