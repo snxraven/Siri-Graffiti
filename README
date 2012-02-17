@@ -1,0 +1,14 @@
+Siri-Graffiti by: Jonathon Nickols
+
+
+How to install this plugin:
+
+#1: Upload graffiti.py into /plugins/ dir of siriProxy
+
+#2: Add "graffiti" into plugins.conf
+
+#3: Upload the php folder to your web server. 
+
+#4: Edit graffiti.py to reflect the url of your php api
+
+DONE :)  
