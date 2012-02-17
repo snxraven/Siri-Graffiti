@@ -8,7 +8,7 @@ import json
 from plugin import *
 
 class test(Plugin):
-    req = urllib2.Request("http://path-to-php-dir")
+    req = urllib2.Request("http://siri.grwh.net/api/")
     full_json = urllib2.urlopen(req).read()
     load = json.loads(full_json)
     Command = load['value']['inputCommand']
@@ -17,7 +17,7 @@ class test(Plugin):
     @register("en-US", Command)
     def st_hello(self, speech, language):
         if language == 'en-US':
-            req = urllib2.Request("http://path-to-php-dir")
+            req = urllib2.Request("http://siri.grwh.net/api/")
 	    full_json = urllib2.urlopen(req).read()
 	    load = json.loads(full_json)
 	    store = load['value']['response']
