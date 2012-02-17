@@ -1,0 +1,1 @@
+{ "type": "success", "value": {"id": 1, "inputCommand": "Graffiti", "response": "this server rocks!" } }
